@@ -42,7 +42,7 @@ pipeline {
          }
     }
     post {
-        sccess {
+        success {
             echo "deployment completed successfully"
         }
         failure {
