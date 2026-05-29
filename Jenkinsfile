@@ -31,7 +31,7 @@ pipiline {
             }
          }
           
-         stage(deploy on s3) {
+         stage('deploy on s3') {
             steps {
                 echo "Deploying application to s3"
 
